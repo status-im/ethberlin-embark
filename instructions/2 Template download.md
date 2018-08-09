@@ -8,8 +8,8 @@ We will leverage Embark’s featureset to write our smart contract, write unit t
 Clone the DTwitter template into your dApp folder:
 ```
 cd [parent folder] (ie ~/dev/__github)
-git clone https://github.com/status-im/dappcon-workshop-dapp
-cd dappcon-workshop-dapp
+git clone https://github.com/status-im/ethindia-embark
+cd ethindia-embark
 git checkout start-here
 ```
 Let’s take a moment to look at the file structure of the dApp and open the template in our IDE.
