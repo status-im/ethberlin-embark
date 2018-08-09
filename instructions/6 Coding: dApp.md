@@ -12,7 +12,7 @@ Let’s use the code-generated `DTwitter` API and the `EmbarkJS` API to interact
     const createAccount = DTwitter.methods.createAccount(username, description);
 
      // get a gas estimate before sending the transaction
-     const gasEstimate = await createAccount.estimateGas({ from: web3.eth.defaultAccount, gas: 10000000000 });
+     const gasEstimate = await createAccount.estimateGas({ from: web3.eth.defaultAccount });
 
      // send the transaction to create an account with our gas estimate
      // (plus a little bit more in case the contract state has changed).
