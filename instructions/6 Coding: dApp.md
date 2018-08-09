@@ -28,7 +28,7 @@ await EmbarkJS.Storage.uploadFile([this.inputPicture]);
 const editAccount = DTwitter.methods.editAccount(web3.utils.keccak256(user.username), description, hash);
 
 // get a gas estimate for the transaction with the input username and description
-const gasEstimate = await editAccount.estimateGas({ from: web3.eth.defaultAccount, gas: 10000000000 });
+const gasEstimate = await editAccount.estimateGas({ from: web3.eth.defaultAccount });
 
 // send the transaction with our gas estimate (plus a little bit more in case the contract) state has changed since we got our estimate
 const result = await editAccount.send({ from: web3.eth.defaultAccount, gas: gasEstimate + 1000 });
@@ -37,7 +37,7 @@ const result = await editAccount.send({ from: web3.eth.defaultAccount, gas: gasE
 The DoTweet components sends a tweet to the contract. We will need to update the  `_handleClick` even to estimate gas and call the contract's `tweet` function.
 ```
 // estimate gas before sending tweet transaction
-const gasEstimate = await tweet.estimateGas({ from: web3.eth.defaultAccount, gas: 10000000000 });
+const gasEstimate = await tweet.estimateGas({ from: web3.eth.defaultAccount });
     
 // send the tweet transaction plus a little extra gas in case the contract state
 // has changed since we've done our gas estimate
