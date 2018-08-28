@@ -1,10 +1,10 @@
-# ETHIndia Embark competition - August 10-12th, 2018
-For attendees of ETHIndia August 10-12th, this repo provides an example of how to build a decnetralised Twitter dApp using Embark, and must be completed to to claim the ETHIndia Embark competition prize.
+# ETHBerlin Embark competition - August 10-12th, 2018
+For attendees of ETHBerlin August 10-12th, this repo provides an example of how to build a decnetralised Twitter dApp using Embark, and must be completed to to claim the ETHBerlin Embark competition prize.
 ## Decentralized Twitter dApp built using Embark by Status
 ### Instructions to claim the prize
 1. [Build the DTwitter demo using Embark](./instructions).
 4. Tweet a screenshot of the demo with a profile of your own on your new DTwitter!
-5. Include the hashtags `#embark #ETHIndia`.
+5. Include the hashtags `#embark #ETHBerlin`.
 6. Come to the Status booth and we'll reward you with SNT using the Status app.
 
 To build the DTwitter demo using Embark (step #1 above), please use the [instructions](./instructions).
