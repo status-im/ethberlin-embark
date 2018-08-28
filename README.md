@@ -1,5 +1,5 @@
-# ETHBerlin Embark competition - August 10-12th, 2018
-For attendees of ETHBerlin August 10-12th, this repo provides an example of how to build a decnetralised Twitter dApp using Embark, and must be completed to to claim the ETHBerlin Embark competition prize.
+# ETHBerlin Embark competition -September 7-9th, 2018
+For attendees of ETHBerlin September 7-9th this repo provides an example of how to build a decnetralised Twitter dApp using Embark, and must be completed to to claim the ETHBerlin Embark competition prize.
 ## Decentralized Twitter dApp built using Embark by Status
 ### Instructions to claim the prize
 1. [Build the DTwitter demo using Embark](./instructions).
