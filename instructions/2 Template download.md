@@ -21,7 +21,7 @@ Let’s take a moment to look at the file structure of the dApp and open the tem
     * Namesystem - configures ENS support (coming in 3.2)
     * Storage - configures decentralised storage for IPFS and Swarm. Includes a section for uploading the dApp as well as a dApp connection that can be used in the dApp.
     * Webserver - configuration options for the webserver that serves the dApp during development.
-* `/contracts` - contains our contacts
+* `/contracts` - contains our contracts
 * `/test` - contains our mocha tests for testing our contracts
 * `embark.json` - configures file locations, webpack options, and library versions to use
 > All configs are set up for this demo, there should be no need to change them.
