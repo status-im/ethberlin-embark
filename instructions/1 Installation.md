@@ -10,7 +10,7 @@ If you need to update Node, please [install `nvm`](https://github.com/creationix
 ```
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 nvm install --lts
-nvm use lts
+nvm use --lts
 ```
 #### IPFS 0.4.15+
 ```
